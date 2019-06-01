@@ -1,0 +1,6 @@
+# Folder used by `hugo serve`
+resources/_gen
+
+# Generated files
+public/
+
