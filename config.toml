@@ -1,4 +1,4 @@
-baseURL = "http://ptrteixeira.github.io/me"
+baseURL = "https://ptrteixeira.github.io/me/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Peter Teixeira"
 theme = "hugo-coder"
