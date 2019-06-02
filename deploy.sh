@@ -1,8 +1,14 @@
 #!/bin/bash
+set -eo pipefail
 
-hugo
+cat <<HEREDOC > ~/.gitconfig
+[user]
+  email = PtrTeixeira@gmail.com
+  name = CircleCI
 
-cd public && \
+HEREDOC
+
+cd public/ && \
   git add --all && \
-  git commit -m 'Publishing to gh-pages' && \
+  git commit -m "Deploy website" && \
   git push origin gh-pages
