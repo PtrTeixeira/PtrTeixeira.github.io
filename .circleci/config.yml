@@ -1,0 +1,53 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.55.6
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "81:36:b5:49:9a:2c:b4:c2:2e:89:dc:c6:46:74:8b:9c"
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run:
+          name: "Build site"
+          command: HUGO_ENV=production hugo -v
+      - run:
+          name: "Test website"
+          command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+  deploy:
+    docker:
+      - image: cibuilds/hugo:0.55.6
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "81:36:b5:49:9a:2c:b4:c2:2e:89:dc:c6:46:74:8b:9c"
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run:
+          name: "Create deployment worktree"
+          command: git worktree add -B gh-pages public origin/gh-pages
+      - run:
+          name: "Build website"
+          command: HUGO_ENV=production hugo -v
+      - run:
+          name: "Deploy website"
+          command: ./deploy.sh
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
