@@ -5,6 +5,9 @@ jobs:
     docker:
       - image: cibuilds/hugo:0.55.6
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "81:36:b5:49:9a:2c:b4:c2:2e:89:dc:c6:46:74:8b:9c"
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
@@ -18,6 +21,9 @@ jobs:
     docker:
       - image: cibuilds/hugo:0.55.6
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "81:36:b5:49:9a:2c:b4:c2:2e:89:dc:c6:46:74:8b:9c"
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
@@ -27,9 +33,6 @@ jobs:
       - run:
           name: "Build website"
           command: HUGO_ENV=production hugo -v
-      - add_ssh_keys:
-          fingerprints:
-            - "81:36:b5:49:9a:2c:b4:c2:2e:89:dc:c6:46:74:8b:9c"
       - run:
           name: "Deploy website"
           command: ./deploy.sh
