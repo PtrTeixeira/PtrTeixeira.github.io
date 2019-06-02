@@ -28,7 +28,7 @@ jobs:
             - "81:36:b5:49:9a:2c:b4:c2:2e:89:dc:c6:46:74:8b:9c"
       - run:
           name: "Deploy website"
-          command: cd public && git add --all && git commit -m "Deploy website" && git push origin gh-pages
+          command: ./deploy.sh
 
 workflows:
   version: 2
