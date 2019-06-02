@@ -6,6 +6,8 @@ jobs:
       - image: cibuilds/hugo:0.55.6
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run:
           name: "Build site"
           command: HUGO_ENV=production hugo -v
@@ -17,6 +19,8 @@ jobs:
       - image: cibuilds/hugo:0.55.6
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run:
           name: "Create deployment worktree"
           command: git worktree add -B gh-pages public origin/gh-pages
