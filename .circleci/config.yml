@@ -10,7 +10,7 @@ jobs:
           command: git worktree add -B gh-pages public origin/gh-pages
       - run:
           name: "Build site"
-          command: HUGO_ENV=production hugo -v -s src/
+          command: HUGO_ENV=production hugo -v
       - run: 
           name: "Test website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
