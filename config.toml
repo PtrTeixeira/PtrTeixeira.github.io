@@ -26,3 +26,12 @@ name = "LinkedIn"
 icon = "fab fa-linkedin"
 weight = 3
 url = "https://www.linkedin.com/in/PtrTeixeira"
+
+[languages]
+  [languages.en]
+    languagename = "English"
+
+    [[languages.en.menu.main]]
+    name = "Uses"
+    weight = 1
+    url = "/uses/"
