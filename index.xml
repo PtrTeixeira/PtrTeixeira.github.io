@@ -6,9 +6,20 @@
     <description>Recent content on Peter Teixeira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2019 20:27:59 -0400</lastBuildDate>
     
 	<atom:link href="https://ptrteixeira.github.io/me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uses</title>
+      <link>https://ptrteixeira.github.io/me/uses/</link>
+      <pubDate>Sat, 01 Jun 2019 20:27:59 -0400</pubDate>
+      
+      <guid>https://ptrteixeira.github.io/me/uses/</guid>
+      <description>Tools I Use (Inspired by awesome-uses)
+Development Tools  Visual Studio Code (or Jetbrains IDEA, or Vim. But mostly VSCode) Konsole Zsh (+ antibody to manage plugins)  Running  Garmin Forerunner 405. I&amp;rsquo;ve had it for ~6 years, and it&amp;rsquo;s starting to get pretty beat up. Still works great, though! Saucony Freedom ISO. I&amp;rsquo;ve gone through 4 (?) pairs of these, after switching away from Hoka Odysseys (which I found I was wearing through too quickly).</description>
+    </item>
     
   </channel>
 </rss>
