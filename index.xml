@@ -18,7 +18,7 @@
       
       <guid>https://ptrteixeira.github.io/me/uses/</guid>
       <description>Tools I Use (Inspired by awesome-uses)
-Development Tools  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&amp;rsquo;m comfortable with it, but (no longer) evangelical about it. It&amp;rsquo;s an editor, it&amp;rsquo;s fast, and I now know it well enough that it stays out of my way. I&amp;rsquo;m sure if I bothered to configure nano, I&amp;rsquo;d feel the same about that.  Konsole Zsh (+ antibody to manage plugins) I dual-boot Windows and Fedora.</description>
+Development Environment  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&amp;rsquo;m comfortable with it, but (no longer) evangelical about it. It&amp;rsquo;s an editor, it&amp;rsquo;s fast, and I now know it well enough that it stays out of my way. I&amp;rsquo;m sure if I bothered to configure nano, I&amp;rsquo;d feel the same about that.  Konsole Zsh (+ antibody to manage plugins) I currently use PopOS with the default (Gnome-derived) theme.</description>
     </item>
     
   </channel>

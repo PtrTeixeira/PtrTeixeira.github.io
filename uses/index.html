@@ -12,11 +12,11 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Uses"/>
 <meta name="twitter:description" content="Tools I Use (Inspired by awesome-uses)
-Development Tools  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&rsquo;m comfortable with it, but (no longer) evangelical about it. It&rsquo;s an editor, it&rsquo;s fast, and I now know it well enough that it stays out of my way. I&rsquo;m sure if I bothered to configure nano, I&rsquo;d feel the same about that.  Konsole Zsh (&#43; antibody to manage plugins) I dual-boot Windows and Fedora."/>
+Development Environment  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&rsquo;m comfortable with it, but (no longer) evangelical about it. It&rsquo;s an editor, it&rsquo;s fast, and I now know it well enough that it stays out of my way. I&rsquo;m sure if I bothered to configure nano, I&rsquo;d feel the same about that.  Konsole Zsh (&#43; antibody to manage plugins) I currently use PopOS with the default (Gnome-derived) theme."/>
 
     <meta property="og:title" content="Uses" />
 <meta property="og:description" content="Tools I Use (Inspired by awesome-uses)
-Development Tools  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&rsquo;m comfortable with it, but (no longer) evangelical about it. It&rsquo;s an editor, it&rsquo;s fast, and I now know it well enough that it stays out of my way. I&rsquo;m sure if I bothered to configure nano, I&rsquo;d feel the same about that.  Konsole Zsh (&#43; antibody to manage plugins) I dual-boot Windows and Fedora." />
+Development Environment  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&rsquo;m comfortable with it, but (no longer) evangelical about it. It&rsquo;s an editor, it&rsquo;s fast, and I now know it well enough that it stays out of my way. I&rsquo;m sure if I bothered to configure nano, I&rsquo;d feel the same about that.  Konsole Zsh (&#43; antibody to manage plugins) I currently use PopOS with the default (Gnome-derived) theme." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ptrteixeira.github.io/me/uses/" />
 <meta property="article:published_time" content="2019-06-01T20:27:59-04:00"/>
@@ -95,7 +95,7 @@ Development Tools  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  
 
 <p>(Inspired by <a href="https://github.com/wesbos/awesome-uses">awesome-uses</a>)</p>
 
-<h3 id="development-tools">Development Tools</h3>
+<h3 id="development-environment">Development Environment</h3>
 
 <ul>
 <li>Visual Studio Code (or Intellij, or Vim. But mostly VSCode)
@@ -108,20 +108,21 @@ configure nano, I&rsquo;d feel the same about that.</li>
 </ul></li>
 <li>Konsole</li>
 <li>Zsh (+ <a href="http://getantibody.github.io/">antibody</a> to manage plugins)</li>
-<li>I dual-boot Windows and Fedora. I have some non-development Windows-only
-software (namely, Garmin Express) that prevents me from swapping entirely
-to a Linux distro.
-
-<ul>
-<li>Currently using <a href="https://i3wm.org/">i3</a> as the window manager for Fedora,
-without a full desktop environment. Before that I was using the KDE spin.</li>
-</ul></li>
+<li>I currently use <a href="https://system76.com/pop">PopOS</a> with the default
+(Gnome-derived) theme. In the past, I&rsquo;ve used Fedora with i3wm and
+Fedora with KDE. I think PopOS is doing some pretty cool things in
+the Rust space, which is a good enough reason for me to use it for now.</li>
 <li><a href="https://stedolan.github.io/jq/">jq</a> for handling json</li>
 <li><a href="https://geoff.greer.fm/ag/">ag</a> as a grep replacement. I briefly tried
 <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a>, but for my use case
 (which is typically <code>grep -F</code>) the speed difference isn&rsquo;t significant
 enough for me to switch</li>
-<li>Terraform + ansible for provisioning</li>
+<li>Terraform + ansible for managing infrastructure
+
+<ul>
+<li>I even use an ansible play to manage my dotfiles, for what
+it&rsquo;s worth</li>
+</ul></li>
 <li><a href="https://bazel.build/">bazel</a> as a build tool
 
 <ul>
@@ -130,13 +131,20 @@ build a bunch of different languages one way. It also has built-in
 tools to package things as debs or rpms, which is a handy way to deploy
 things.</li>
 </ul></li>
+<li>The font <a href="https://github.com/tonsky/FiraCode">Fira Code</a> with
+ligatures enabled, everywhere available</li>
 </ul>
 
 <h3 id="hardware">Hardware</h3>
 
 <ul>
-<li>iPhone 5s, regrettably sans case. I dropped it several years ago and
-the screen is rather cracked. But it still works, so I&rsquo;ve yet to replace it.</li>
+<li>iPhone XR, regrettably sans case.
+
+<ul>
+<li>It&rsquo;s a replacement for an iPhone 5s, which also didn&rsquo;t have a
+case, and bore some impressive cracks after having been dropped
+one too many times.</li>
+</ul></li>
 <li>Toshiba Satellite. Its one damning flaw is that it has an oldish
 Broadcom wifi card, whose driver is not installed by default on Fedora or
 Ubuntu. Even after downloading and installing the driver over Ethernet I&rsquo;ve
@@ -156,9 +164,13 @@ this at some point.</li>
 <h3 id="running">Running</h3>
 
 <ul>
-<li>Garmin Forerunner 405. I&rsquo;ve had it for ~6 years, and it&rsquo;s starting to
-get pretty beat up. Still works great, though!</li>
-<li>Saucony Freedom ISO. I&rsquo;ve gone through 4 (?) pairs of these, after switching
+<li>Garmin Forerunner 645 music.
+
+<ul>
+<li>It replaces an incredibly beat-up and very old Forerunner 405, which I used until I broke the wristband beyond even the powers
+of copious amounts of superglue</li>
+</ul></li>
+<li>Saucony Freedom ISO. I&rsquo;ve gone through 4+ pairs of these, after switching
 away from Hoka Odysseys (which I found I was wearing through too quickly).</li>
 <li><a href="https://strava.com">Strava</a>. Strava has, in my opinion, better analytics
 even at the free level than Garmin does, and it really benefits from the
