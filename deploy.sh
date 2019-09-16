@@ -10,5 +10,5 @@ HEREDOC
 
 cd public/ && \
   git add --all && \
-  git commit -m "Deploy website" && \
+  git commit -m "Deploy website [skip ci]" && \
   git push origin gh-pages
