@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.55.6
+      - image: cibuilds/hugo:0.58.2
     steps:
       - add_ssh_keys:
           fingerprints:
