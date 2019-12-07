@@ -28,35 +28,7 @@ You're welcome to think that I'm a moron, though.
 
 In no particular order:
 
-## _22, A Million_ - Bon Iver (2016) ##
-
-I liked it more than _i,i_
-
-## _Melodrama_ - Lorde (2017) ##
-
-Was pretty good.
-
-## _A Brief Inquiry Into Online Relationships_ - The 1975 (2013) ##
-
-Also pretty good.
-
-## _BEYONCE_ - Beyonce (2014) ##
-
-Is by Beyonce
-
-## _The Bones of What You Believe_ - CHVRCHES (2013) ##
-
-I liked this album
-
-## _Hamilton_ - various artists (2015) ##
-
-A Broadway album? Damn straight
-
-## _Puberty 2_ - Mitsky (2016) ##
-
-Also a thing I like
-
-## _Red_ - Taylor Swift (2012) ##
+## _Red_ - Taylor Swift (2012)
 
 "All Too Well" is Swift's magnum opus, and more than enough
 to earn a spot on this list by itself. It marked the peak of 
@@ -74,31 +46,39 @@ Quite beyond the music, it was also a cultural touchstone.
 Who could forget the incessant goat remixes of "Trouble?"
 
 
-## Notes for myself / runners up
+## _22, A Million_ - Bon Iver (2016)
 
-(This is why this a draft, I haven't picked all of them yet) 
+I liked it more than _i,i_
 
-* _High Violet_ - The National (2010)
-* _Teen Dream_ - Beach House (2010)
-* _Halcyon Digest_ - Deerhunter (2010)
-* _Reflektor_ - Arcade Fire (2015)
-* _Acid Rap_ - Chance the Rapper (2013)
-* _James Blake_ - James Blake (2011)
-* _The Suburbs_ - Arcade Fire (2010)
-* _Celebration Rock_ - Japandroids (2012)
-* _m b v_ - My Bloody Valentine (2013)
-* _Sunbather_ - Deafheaven (2013)
-* _Strange Mercy_ - St. Vincent (2011)
-* _Hurry Up, We're Dreaming_ - M83 (2011)
-* _Lost in the Dream_ - The War on Drugs (2014)
-* _Channel Orange_ - Frank Ocean (2012)
-* _DAMN._ - Kendrick Lamar (2017)
-* _Trouble Will Find Me_ - The National (2013)
-* _Lush_ - Snail Mail (2018)
-* _Before The World Was Big_ - Girlpool (2015)
-* _Sweetener_ - Ariana Grande (2018)
-* _EMOTION_ - Carly Rae Jepsen (2015)
-* _Blackstar_ - David Bowie (2016)
-* _Bon Iver_ - Bon Iver (2011)
-* _To Pimp A Butterfly_ - Kendrick Lamar (2015)
-* _Blonde_ - Frank Ocean (2016)
+## _Melodrama_ - Lorde (2017)
+
+Was pretty good.
+
+## _A Brief Inquiry Into Online Relationships_ - The 1975 (2018) ##
+
+Also pretty good.
+
+## _To Pimp a Butterfly_ - Kendrick Lamar (2015)
+
+Uh oh!
+
+## _The Bones of What You Believe_ - CHVRCHES (2013) ##
+
+I liked this album
+
+## _Under Soil and Dirt_ - The Story So Far (2011)
+
+beep beep
+
+## _Neighborhoods_ - blink-182 (2011)
+
+beep beep
+
+## _Pools To Bathe In_ - The Japanese House (2015)
+
+beep beep
+
+## _Free Spirit_ - Khalid (2019)
+
+bepp beep
+
