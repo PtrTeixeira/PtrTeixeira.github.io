@@ -35,3 +35,8 @@ url = "https://www.linkedin.com/in/PtrTeixeira"
     name = "Uses"
     weight = 1
     url = "/uses/"
+
+    [[languages.en.menu.main]]
+    name = "Posts"
+    weight = 2
+    url = "/posts/"
