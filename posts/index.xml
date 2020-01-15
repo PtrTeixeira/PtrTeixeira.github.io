@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peter Teixeira</title>
-    <link>https://ptrteixeira.github.io/me/</link>
-    <description>Recent content on Peter Teixeira</description>
+    <title>Posts on Peter Teixeira</title>
+    <link>https://ptrteixeira.github.io/me/posts/</link>
+    <description>Recent content in Posts on Peter Teixeira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jan 2020 21:34:08 -0500</lastBuildDate>
     
-	<atom:link href="https://ptrteixeira.github.io/me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ptrteixeira.github.io/me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,16 +22,6 @@ Boston MA 02115
 Hours: Generally speaking 7-7, with some varience for holiday and summer hours
 https://pavementcoffeehouse.com/
 Review I live literally around the block from the Symphony Pavement location and am not a big fan of cooking weekend mornings, so I&amp;rsquo;ve been to Pavement an unfortunate number of times. It really does have a lot to recommend it - the coffee (and other drinks, like the matcha latte) are good, if expensive.</description>
-    </item>
-    
-    <item>
-      <title>Uses</title>
-      <link>https://ptrteixeira.github.io/me/uses/</link>
-      <pubDate>Sat, 01 Jun 2019 20:27:59 -0400</pubDate>
-      
-      <guid>https://ptrteixeira.github.io/me/uses/</guid>
-      <description>Tools I Use (Inspired by awesome-uses)
-Development Environment  Visual Studio Code (or Intellij, or Vim. But mostly VSCode)  A side note about Vim - I&amp;rsquo;m comfortable with it, but (no longer) evangelical about it. It&amp;rsquo;s an editor, it&amp;rsquo;s fast, and I now know it well enough that it stays out of my way. I&amp;rsquo;m sure if I bothered to configure nano, I&amp;rsquo;d feel the same about that.  Konsole Zsh (+ antibody to manage plugins) I currently use PopOS with the default (Gnome-derived) theme.</description>
     </item>
     
   </channel>
