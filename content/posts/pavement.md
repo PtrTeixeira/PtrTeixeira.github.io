@@ -33,5 +33,3 @@ can avoid it by getting something like the Awakening ($7), which has
 enough other things on it that you can't taste the eggs, or the
 Vegan Tequila (also $7) which omits the egg altogether, but if you're
 trying to get an egg sandwich you have better options.
-
-Result: 6/10
