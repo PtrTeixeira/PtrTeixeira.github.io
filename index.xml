@@ -6,10 +6,20 @@
     <description>Recent content on Peter Teixeira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 20:39:01 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 19:11:13 -0400</lastBuildDate>
     
 	<atom:link href="https://ptrteixeira.github.io/me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://ptrteixeira.github.io/me/about/</link>
+      <pubDate>Tue, 25 Aug 2020 19:11:13 -0400</pubDate>
+      
+      <guid>https://ptrteixeira.github.io/me/about/</guid>
+      <description>About this Blog I sincerely intended this to be a tech blog. It turns out, I barely have tech-ish ideas at work, and having them outside of work seems a lot like &amp;hellip; work. So I&amp;rsquo;m not doing that. Which isn&amp;rsquo;t to say that I&amp;rsquo;m definitely not put tech-related ideas on here, but I&amp;rsquo;m definitely not going to make myself do that.
+If you do want tech-adjacent posts in domains that I&amp;rsquo;m interested in, why don&amp;rsquo;t you check out Jess Frazelle&amp;rsquo;s blog or Rachel Kroll&amp;rsquo;s or Dan Luu&amp;rsquo;s, or Cindy Sridharan&amp;rsquo;s (on Medium, unfortunately)?</description>
+    </item>
     
     <item>
       <title>She-Ra and the Princesses of Power (A TV Reflection)</title>
