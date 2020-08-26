@@ -7,7 +7,7 @@ theme = "hugo-coder"
 author = "Peter Teixeira"
 description = "Random Thoughts"
 avatarurl = "/images/avatar.jpg"
-info = "Some running. Some backend."
+info = "Occasionally writes about things"
 hideCredits = false
 hideCopyright = true
 
@@ -26,6 +26,11 @@ name = "LinkedIn"
 icon = "fab fa-linkedin"
 weight = 3
 url = "https://www.linkedin.com/in/PtrTeixeira"
+[[params.social]]
+name = "Twitter"
+icon = "fab fa-twitter"
+weight = 4
+url = "https://www.twitter.com/PeterTeixeira9"
 
 [languages]
   [languages.en]
@@ -37,6 +42,11 @@ url = "https://www.linkedin.com/in/PtrTeixeira"
     url = "/uses/"
 
     [[languages.en.menu.main]]
-    name = "Posts"
+    name = "About"
     weight = 2
+    url = "/about/"
+
+    [[languages.en.menu.main]]
+    name = "Posts"
+    weight = 3
     url = "/posts/"
