@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Peter Teixeira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 20:39:01 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 11:44:37 -0400</lastBuildDate>
     
 	<atom:link href="https://ptrteixeira.github.io/me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Egg Sandwich</title>
+      <link>https://ptrteixeira.github.io/me/tags/egg-sandwich/</link>
+      <pubDate>Sun, 30 Aug 2020 11:44:37 -0400</pubDate>
+      
+      <guid>https://ptrteixeira.github.io/me/tags/egg-sandwich/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>television</title>
@@ -17,15 +26,6 @@
       <pubDate>Thu, 13 Aug 2020 20:39:01 -0400</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/tags/television/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Egg Sandwich</title>
-      <link>https://ptrteixeira.github.io/me/tags/egg-sandwich/</link>
-      <pubDate>Sun, 26 Jan 2020 12:34:08 -0500</pubDate>
-      
-      <guid>https://ptrteixeira.github.io/me/tags/egg-sandwich/</guid>
       <description></description>
     </item>
     
