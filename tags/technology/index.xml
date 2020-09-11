@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Peter Teixeira</title>
+    <link>https://ptrteixeira.github.io/me/tags/technology/</link>
+    <description>Recent content in technology on Peter Teixeira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Sep 2020 20:12:42 -0400</lastBuildDate>
+    
+	<atom:link href="https://ptrteixeira.github.io/me/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Design</title>
+      <link>https://ptrteixeira.github.io/me/posts/on-design/</link>
+      <pubDate>Thu, 10 Sep 2020 20:12:42 -0400</pubDate>
+      
+      <guid>https://ptrteixeira.github.io/me/posts/on-design/</guid>
+      <description>I’ve been thinking about this for a while, and figured I’d put it down someplace. It starts out kinda technical, but I promise it’s actually a metaphor for something 1.
+In Linux there’s a particular syscall (fork) that lets you start a new process from a running process. It’s something that gets used all the time, and there’s nothing inherently weird about it. You call it, it starts a new process, and gives you back the ID of the new process.</description>
+    </item>
+    
+  </channel>
+</rss>
