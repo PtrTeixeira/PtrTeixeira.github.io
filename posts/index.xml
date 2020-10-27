@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Peter Teixeira</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Posts on Peter Teixeira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2020 16:12:21 -0400</lastBuildDate>
-    
-	<atom:link href="https://ptrteixeira.github.io/me/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 04 Oct 2020 16:12:21 -0400</lastBuildDate><atom:link href="https://ptrteixeira.github.io/me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Avatar: The Legend of Korra (A TV Reflection)</title>
       <link>https://ptrteixeira.github.io/me/posts/legend-of-korra/</link>
@@ -45,8 +41,7 @@ In Linux there’s a particular syscall (fork) that lets you start a new process
       <pubDate>Sun, 30 Aug 2020 11:44:37 -0400</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/render-coffee/</guid>
-      <description>Info 563 Columbus Ave,
-Boston, MA 02118
+      <description>Info 563 Columbus Ave,Boston, MA 02118
 Hours: 8a-4p weekends, 7a-2p weekdays
 https://rendercoffeebar.com
 (There&amp;rsquo;s also a second location in the Financial district, but I&amp;rsquo;ve never been there)
@@ -59,7 +54,7 @@ Review Render Coffee&amp;rsquo;s orders work a little differently than at other 
       <pubDate>Thu, 13 Aug 2020 20:39:01 -0400</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/she-ra-and-the-princesses-of-power/</guid>
-      <description>She-Ra and the Princesses of Power isn’t terribly subtle in its moralizing. At one point in S5E12 Princess Entrapta tells Hordak that it&amp;rsquo;s his differences from his hive-mind brothers that make him special. It also doesn’t need to be. She-Ra is grounded on how well the characters are developed and humanized, from the four-legged non-verbal robot Emily to the Best Friends Squad at the center of the show to the villains.</description>
+      <description>Author&amp;rsquo;s Note: This was the first piece of long-form writing I&amp;rsquo;ve done in about two years, and the first piece of writing about literature that I&amp;rsquo;ve done in about seven years. It reads like a mediocre high-school essay, because it basically is. I&amp;rsquo;ve written several pieces since, which I like to think read a little nicer than this. I will certainly re-watch She-Ra, probably in the near future, and when I do that I&amp;rsquo;ll come back to this post and re-write it.</description>
     </item>
     
     <item>
@@ -79,11 +74,10 @@ Review Farmer&amp;rsquo;s Horse has been something of a lifesaver for me in quar
       <pubDate>Sun, 26 Jan 2020 12:34:08 -0500</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/haute-coffee/</guid>
-      <description>Haute Coffee Info 1 Canal Park,
-Cambridge MA
+      <description>Haute Coffee Info 1 Canal Park,Cambridge MA
 Hours: 7-4, closed Sundays.
 https://myhautecoffee.com/
-Review Now for the coffee show that I work right next to. Egg sandwiches are served on brioche and are pretty good. Served hot, with good eggs and good cheese. There&amp;rsquo;s only one, small problem - the sandwhich is somewhat small. The brioche, while tasty, is about the size of a dinner role and there&amp;rsquo;s one egg.</description>
+Review Now for the coffee show that I work right next to. Egg sandwiches are served on brioche and are pretty good. Served hot, with good eggs and good cheese. There&amp;rsquo;s only one, small problem - the sandwhich is somewhat small. The brioche, while tasty, is about the size of a dinner role and there&amp;rsquo;s one egg. You can add vegetables or meat, which is probably the most reasonable thing to do.</description>
     </item>
     
     <item>
@@ -92,8 +86,7 @@ Review Now for the coffee show that I work right next to. Egg sandwiches are ser
       <pubDate>Tue, 14 Jan 2020 21:34:08 -0500</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/pavement/</guid>
-      <description>Pavement Coffeehouse Info 44 Gainsborough St,
-Boston MA 02115
+      <description>Pavement Coffeehouse Info 44 Gainsborough St,Boston MA 02115
 Hours: Generally speaking 7-7, with some varience for holiday and summer hours
 https://pavementcoffeehouse.com/
 Review I live literally around the block from the Symphony Pavement location and am not a big fan of cooking weekend mornings, so I&amp;rsquo;ve been to Pavement an unfortunate number of times. It really does have a lot to recommend it - the coffee (and other drinks, like the matcha latte) are good, if expensive.</description>

@@ -4,10 +4,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Peter Teixeira">
-    <meta name="description" content="Random Thoughts">
-    
+    <meta name="description" content="I’ve been thinking about this for a while, and figured I’d put it down someplace. It starts out kinda technical, but I promise it’s actually a metaphor for something 1.
+In Linux there’s a particular syscall (fork) that lets you start a new process from a running process. It’s something that gets used all the time, and there’s nothing inherently weird about it. You call it, it starts a new process, and gives you back the ID of the new process.">
+    <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="On Design"/>
@@ -19,13 +21,10 @@ In Linux there’s a particular syscall (fork) that lets you start a new process
 In Linux there’s a particular syscall (fork) that lets you start a new process from a running process. It’s something that gets used all the time, and there’s nothing inherently weird about it. You call it, it starts a new process, and gives you back the ID of the new process." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ptrteixeira.github.io/me/posts/on-design/" />
-<meta property="article:published_time" content="2020-09-10T20:12:42-04:00"/>
-<meta property="article:modified_time" content="2020-09-10T20:12:42-04:00"/>
+<meta property="article:published_time" content="2020-09-10T20:12:42-04:00" />
+<meta property="article:modified_time" content="2020-09-10T20:12:42-04:00" />
 
 
-    
-      <base href="https://ptrteixeira.github.io/me/posts/on-design/">
-    
     <title>
   On Design · Peter Teixeira
 </title>
@@ -34,14 +33,14 @@ In Linux there’s a particular syscall (fork) that lets you start a new process
       <link rel="canonical" href="https://ptrteixeira.github.io/me/posts/on-design/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="/me/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/me/css/coder.min.f19a84724525d6c44f67f32a7454077c01059aa7249da07789336656eaf64489.css" integrity="sha256-8ZqEckUl1sRPZ/MqdFQHfAEFmqcknaB3iTNmVur2RIk=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -51,40 +50,63 @@ In Linux there’s a particular syscall (fork) that lets you start a new process
     
 
     
-    
-    <link rel="icon" type="image/png" href="https://ptrteixeira.github.io/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://ptrteixeira.github.io/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.55.6" />
+    <link rel="icon" type="image/png" href="/me/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/me/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/me/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/me/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.76.5" />
   </head>
 
-  <body class=" ">
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
     <a class="navigation-title" href="/me">
       Peter Teixeira
     </a>
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
+    
       
+        <span id="dark-mode-toggle" class="float-right">
+          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </span>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://ptrteixeira.github.io/me/uses/">Uses</a>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/me/uses/">Uses</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/me/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/me/posts/">Posts</a>
+            </li>
+          
+        
+        
+        
+          <li class="navigation-item separator">
+            <span>|</span>
           </li>
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://ptrteixeira.github.io/me/about/">About</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://ptrteixeira.github.io/me/posts/">Posts</a>
-          </li>
-        
-      
-      
-    </ul>
+      </ul>
+    
   </section>
 </nav>
 
@@ -100,66 +122,58 @@ In Linux there’s a particular syscall (fork) that lets you start a new process
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fas fa-calendar"></i>
+              <i class="fa fa-calendar" aria-hidden="true"></i>
               <time datetime='2020-09-10T20:12:42-04:00'>
                 September 10, 2020
               </time>
             </span>
             <span class="reading-time">
-              <i class="fas fa-clock"></i>
-              5 minutes read
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              5-minute read
             </span>
           </div>
           
+          
           <div class="tags">
-  <i class="fas fa-tag"></i>
+  <i class="fa fa-tag" aria-hidden="true"></i>
     <a href="/me/tags/technology/">technology</a></div>
 
         </div>
       </header>
 
       <div>
-        <p>I’ve been thinking about this for a while, and figured I’d put it down someplace. It starts out kinda technical, but I promise it’s actually a metaphor for something <sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>.</p>
-
+        
+        <p>I’ve been thinking about this for a while, and figured I’d put it down someplace. It starts out kinda technical, but I promise it’s actually a metaphor for something <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>In Linux there’s a particular syscall (<code>fork</code>) that lets you start a new process from a running process. It’s something that gets used all the time, and there’s nothing inherently weird about it. You call it, it starts a new process, and gives you back the ID of the new process. Unless it fails, in which case it returns -1 instead. Keep that in mind for a second.</p>
-
 <p>There’s a second syscall (<code>kill</code>), that lets you shut down running processes. Again, it’s something that gets used all the time and there’s nothing particularly weird about it. You give it a process ID, and it tries to shut it down.</p>
-
 <p>Well, that’s not quite true, there’s one particular weird thing about it. If you give it -1, instead of a real process ID, it will instead try to shut down every process running on your computer. Which, if you happen to be a privileged user, means you will shut down basically everything north of the  operating system. Which is bad.</p>
-
 <p>So suppose you start a child process with <code>fork</code> and you save the process ID that it gives you. You do some more work, then decide to shut down the child process. But oop! <code>fork</code> failed, you ran <code>kill(-1)</code>, and everything on your computer has crashed.</p>
-
 <p>Now, the obvious first thought here is “Don’t do that,” and you’re right. You shouldn’t do that. But maybe you didn’t know about this particular failure mode - it’s very uncommon! Maybe you did know, and you forgot. Maybe you didn’t forget, but you were in a hurry and you were very sure that just this time it’d be fine to skip some checks for now. The fact of the matter here is that this particular set of commands is a gun pointing at your foot. It’s all too easy to slip up and screw yourself over.</p>
-
 <p>Talking about <em>how</em> to fix this is a little out-of-scope, but suffice to say that it doesn’t need to be this way. There are alternative ways to design this system such that you can’t do this. One of the major goals of programming language theory is to explore how to develop systems where mistakes like this are
 impossible.</p>
-
-<p>This example is specifically in computer science, because it’s what I do for work and what I spend a lot of time thinking about. But it’s not a problem that’s unique to computer science. If you’ve ever used a keyboard where the power button was way too close to the “delete” or “backspace” keys you’ve seen something similar. Ford needed to recall 10,000 SUVs because it put the  “sport mode” button right next to the “engine start/stop” button on the car dashboard, and drivers kept turning off the engine <sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>. 400 pilots in WWII crashed B-17s on landing because the flap controls and landing gear couldn’t be distinguished by touch, so pilots would come into land, accidentally adjust the flap controls, and try to land with the  landing gear still raised.</p>
-
+<p>This example is specifically in computer science, because it’s what I do for work and what I spend a lot of time thinking about. But it’s not a problem that’s unique to computer science. If you’ve ever used a keyboard where the power button was way too close to the “delete” or “backspace” keys you’ve seen something similar. Ford needed to recall 10,000 SUVs because it put the  “sport mode” button right next to the “engine start/stop” button on the car dashboard, and drivers kept turning off the engine <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. 400 pilots in WWII crashed B-17s on landing because the flap controls and landing gear couldn’t be distinguished by touch, so pilots would come into land, accidentally adjust the flap controls, and try to land with the  landing gear still raised.</p>
 <p>And just as with the <code>fork</code>/<code>kill</code> example, it’s very easy to write these off individually. What kind of idiot turns off the car
 while driving down the highway? How dumb do you have to be to
 accidentally not lower the landing gear on a huge plane?</p>
-
 <p>But that line of thought misses a very fundamental point, which is that it’s possible to design a system such that it’s very
 hard to make catastrophic mistakes, instead of very easy. It’s not easy to make systems work like that - as I said, even in the very narrow field of programming language theory doing so is many, many
 open research questions. But conscientiously designed, incrementally improved systems are leagues better than ones that are haphazardly thrown together.</p>
-
 <p>But the important part is that this isn’t about user-interface design or anything like that. <em>Everything</em> works like this. Every time you say, “Why don’t those chuckleheads just not do that? That’s obviously bad,” you instead get the opportunity to say, “How do we make it really easy to do the right thing and really hard to do the wrong thing?” How do we make it easier to invest than to gamble? How do we make it easier to not get addicted to pain medication than to become addicted? How do we make it as or more convenient to hang out digitally, rather than to hang out in person during a pandemic?</p>
-
 <p>I have no idea what the answers to those questions are. It’d be really, really helpful if I did, but I don’t. I don’t even have a toolset for how to find answers to those questions. This is just something that I need to remind myself of sometimes - a lot of things that look like personal problems are systemic problems, and that there’s (hopefully) a systemic solution.</p>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:1">This is based on <a href="https://rachelbythebay.com/w/2014/08/19/fork/">fork can fail</a> by Rachel Kroll.
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-<li id="fn:2">This example, and the next one, are based on <a href="https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/">The UX of LEGO Interface Panels</a> by George Cave.
- <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>This is based on <a href="https://rachelbythebay.com/w/2014/08/19/fork/">fork can fail</a> by Rachel Kroll. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>This example, and the next one, are based on <a href="https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/">The UX of LEGO Interface Panels</a> by George Cave. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
-</div>
+</section>
 
       </div>
+
 
       <footer>
         
@@ -176,22 +190,37 @@ open research questions. But conscientiously designed, incrementally improved sy
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-    
-    
       
-      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-    
-    
-  </section>
-</footer>
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+        
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
 
     </main>
 
     
+      
+        
+        <script src="/me/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
 
+    
+
+    
+
+    
+
+    
+
+    
   </body>
 
 </html>

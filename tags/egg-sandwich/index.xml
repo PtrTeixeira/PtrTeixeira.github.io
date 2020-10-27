@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Egg Sandwich on Peter Teixeira</title>
@@ -6,19 +6,14 @@
     <description>Recent content in Egg Sandwich on Peter Teixeira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2020 11:44:37 -0400</lastBuildDate>
-    
-	<atom:link href="https://ptrteixeira.github.io/me/tags/egg-sandwich/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 30 Aug 2020 11:44:37 -0400</lastBuildDate><atom:link href="https://ptrteixeira.github.io/me/tags/egg-sandwich/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Render Coffee</title>
       <link>https://ptrteixeira.github.io/me/posts/render-coffee/</link>
       <pubDate>Sun, 30 Aug 2020 11:44:37 -0400</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/render-coffee/</guid>
-      <description>Info 563 Columbus Ave,
-Boston, MA 02118
+      <description>Info 563 Columbus Ave,Boston, MA 02118
 Hours: 8a-4p weekends, 7a-2p weekdays
 https://rendercoffeebar.com
 (There&amp;rsquo;s also a second location in the Financial district, but I&amp;rsquo;ve never been there)
@@ -42,11 +37,10 @@ Review Farmer&amp;rsquo;s Horse has been something of a lifesaver for me in quar
       <pubDate>Sun, 26 Jan 2020 12:34:08 -0500</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/haute-coffee/</guid>
-      <description>Haute Coffee Info 1 Canal Park,
-Cambridge MA
+      <description>Haute Coffee Info 1 Canal Park,Cambridge MA
 Hours: 7-4, closed Sundays.
 https://myhautecoffee.com/
-Review Now for the coffee show that I work right next to. Egg sandwiches are served on brioche and are pretty good. Served hot, with good eggs and good cheese. There&amp;rsquo;s only one, small problem - the sandwhich is somewhat small. The brioche, while tasty, is about the size of a dinner role and there&amp;rsquo;s one egg.</description>
+Review Now for the coffee show that I work right next to. Egg sandwiches are served on brioche and are pretty good. Served hot, with good eggs and good cheese. There&amp;rsquo;s only one, small problem - the sandwhich is somewhat small. The brioche, while tasty, is about the size of a dinner role and there&amp;rsquo;s one egg. You can add vegetables or meat, which is probably the most reasonable thing to do.</description>
     </item>
     
     <item>
@@ -55,8 +49,7 @@ Review Now for the coffee show that I work right next to. Egg sandwiches are ser
       <pubDate>Tue, 14 Jan 2020 21:34:08 -0500</pubDate>
       
       <guid>https://ptrteixeira.github.io/me/posts/pavement/</guid>
-      <description>Pavement Coffeehouse Info 44 Gainsborough St,
-Boston MA 02115
+      <description>Pavement Coffeehouse Info 44 Gainsborough St,Boston MA 02115
 Hours: Generally speaking 7-7, with some varience for holiday and summer hours
 https://pavementcoffeehouse.com/
 Review I live literally around the block from the Symphony Pavement location and am not a big fan of cooking weekend mornings, so I&amp;rsquo;ve been to Pavement an unfortunate number of times. It really does have a lot to recommend it - the coffee (and other drinks, like the matcha latte) are good, if expensive.</description>
