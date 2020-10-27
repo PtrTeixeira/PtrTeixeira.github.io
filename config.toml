@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Peter Teixeira"
 theme = "hugo-coder"
 
+[markup.goldmark.renderer]
+unsafe = false
+
 [params]
 author = "Peter Teixeira"
 description = "Random Thoughts"
@@ -13,22 +16,22 @@ hideCopyright = true
 
 [[params.social]]
 name = "GitHub"
-icon = "fab fa-github"
+icon = "fa fa-github"
 weight = 1
 url = "https://github.com/PtrTeixeira"
 [[params.social]]
 name = "Strava"
-icon = "fab fa-strava"
+icon = "fa fa-bicycle"
 weight = 2
 url = "https://www.strava.com/athletes/23454143"
 [[params.social]]
 name = "LinkedIn"
-icon = "fab fa-linkedin"
+icon = "fa fa-linkedin"
 weight = 3
 url = "https://www.linkedin.com/in/PtrTeixeira"
 [[params.social]]
 name = "Twitter"
-icon = "fab fa-twitter"
+icon = "fa fa-twitter"
 weight = 4
 url = "https://www.twitter.com/PeterTeixeira9"
 
@@ -39,14 +42,14 @@ url = "https://www.twitter.com/PeterTeixeira9"
     [[languages.en.menu.main]]
     name = "Uses"
     weight = 1
-    url = "/uses/"
+    url = "uses/"
 
     [[languages.en.menu.main]]
     name = "About"
     weight = 2
-    url = "/about/"
+    url = "about/"
 
     [[languages.en.menu.main]]
     name = "Posts"
     weight = 3
-    url = "/posts/"
+    url = "posts/"
