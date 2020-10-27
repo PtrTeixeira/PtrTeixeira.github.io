@@ -10,9 +10,7 @@ externalLink = ""
 series = []
 +++
 
-<center>
-{{< figure src="/me/images/legend-of-korra-overlooking-city.jpg" alt="Korra looking out over Republic City" >}}
-</center>
+{{< figure src="/me/images/legend-of-korra-overlooking-city.jpg" alt="Korra looking out over Republic City" class="centered">}}
 
 _Avatar: Legend of Korra_ is best known for not being _Avatar: The Last Airbender_. It received a certain amount of hate when it came out, and has long been viewed as greatly overshadowed by its predecessor. That view is both accurate and somewhat unfair. Legend of Korra is a very different show than _The Last Airbender_, with different conflicts and a dramatically different view of trauma, especially emotional trauma, than its predecessor.
 
@@ -20,9 +18,7 @@ _The Last Airbender_ spends little time focusing on the personal cost of trauma.
 
 Korra is a very different Avatar than Aang. When we meet her In the White Lotus camp we see a young woman, powerfully muscled where Aang was slight, brazen where Aang was cautious, and gifted in all the elements except Aang’s own. And unlike Aang, who was hesitant to accept his responsibilities as the Avatar, Korra defines herself by them. Her very first words in the show, then little more than a toddler, are “I'm the Avatar, you gotta deal with it!” - a stark contrast to Aang’s flight from the Air Temple after he learns he’s the Avatar. When Korra arrives in Republic City, practically the  first thing Korra does is find some thugs to beat up. She is cocksure and self-righteous and - in fairness - brave and kind-hearted. Korra sees herself first and foremost as the Avatar - physically powerful and a gifted bender, and dedicated to using those gifts to help people.
 
-<center>
-{{< figure src="/me/images/legend-of-korra-fighting-criminals.jpg" alt="Korra preparing to beat up some gangsters" >}}
-</center>
+{{< figure src="/me/images/legend-of-korra-fighting-criminals.jpg" alt="Korra preparing to beat up some gangsters" class="centered">}}
 
 That self image is a large part of why her conflict with Amon in season one affected her so powerfully. Amon’s ability to take away bending preyed on Korra’s fear of weakness and insufficiency. After Amon demonstrates his ability in “The Revelation,” Korra has a nightmare about Amon taking away her bending. It ends with Amon saying “After I take your bending away, you’ll be nothing.” Her nightmare demonstrates her fear of being unable to help people as the  Avatar. More generally, Amon’s equalist movement is also a threat to Korra’s self image. Amon’s argument, repeated by his lieutenants, is that the era of benders is over. In Amon’s new world, the Avatar is nothing more than the relic of a bygone era. Korra tries to confront her fears head-on by challenging Amon to a duel in “The Voice in the  Night,” but it winds up backfiring. In a scene that plays out much like her nightmare, Korra is ambushed by Amon and his chi-blockers and quickly defeated. Worse than her physical defeat, Amon dismisses her, telling her that while he could take away her bending easily, his plans are bigger than she is.
 
@@ -34,9 +30,7 @@ Defeat, even defeat at such a scale, isn’t why _Legend of Korra_ is distinct f
 
 Korra ultimately needs to be healed three times over the course of season four. The time is with Katara, in the Southern Water Tribe, and only addresses the physical symptoms of Korra’s trauma. It actually looks a lot like physical therapy in the real world. It also introduces some of the  major themes of Korra’s gradual healing. Katara can’t do very much to help Korra - Korra needs to actively participate in her own healing, and put a lot of work into it. As much as Korra wants to, and as much as her gradual progress frustrates her, Korra can’t get better by just resenting where she is. When she leaves Katara and the Southern Water Tribe, Korra has regained her mobility, but is still physically weaker and still emotionally traumatized by her fight with Zaheer - a fact which is very clearly symbolized by Korra’s vision of herself from that fight.
 
-<center>
-{{< figure src="/me/images/legend-of-korra-korra-alone.png" alt="Korra's reflection in a broken mirror" >}}
-</center>
+{{< figure src="/me/images/legend-of-korra-korra-alone.png" alt="Korra's reflection in a broken mirror" class="centered">}}
 
 In her second healing with Toph, Korra needs to more directly engage with the  physical effects of her trauma. Korra needs to remove the  remaining metal poison from her body before she can return to her strength. More importantly, Korra herself needs to do it. Within the show itself, Korra is holding onto her trauma too tightly for Toph to heal her, so Korra needs to take responsibility for her own healing. Metaphorically, it's a repetition of Katara’s words during Korra’s physical therapy - other people will be able to help her heal, but Korra will need to put in a lot of the work on her own.
 
@@ -48,9 +42,7 @@ I do want to make one more, unrelated comment. Now, in 2020, the relationship be
 
 There are many possible criticisms for how the show handled their relationship - that it was underdeveloped, that Konietzko and DiMartino yielded too readily to pressure from the network, that its influence was small because _Legend of Korra_ had been pulled from television by season 4 and was broadcast exclusively online. Many of them are true. But that’s not the point.
 
-<center>
-{{< figure src="/me/images/legend-of-korra-korra-and-asami.jpg" alt="Korra and Asami holding hands, facing each other" >}}
-</center>
+{{< figure src="/me/images/legend-of-korra-korra-and-asami.jpg" alt="Korra and Asami holding hands, facing each other" class="centered">}}
 
 My coping mechanism thus far in quarantine has been watching more recent animated television shows principally geared to children - _She-Ra and the Princesses of Power_, _Kipo and the Age of Wonderbeasts_, _The Owl House_, _Steven Universe_. I don’t really have the words to talk about how much it matters to have shows that depict LGBT content so positively. It matters that Catra and Adora kissed. It matters that Willow has two dads. It matters that Stevonnie uses they/them pronouns. And it matters that Benson got to say “I’m gay” on television. It matters because kids who watch the show get to have heroes that feel the way they do. It matters that they get to have a language to describe themselves. They get to believe that they have a right to exist and that they are valid.
 
